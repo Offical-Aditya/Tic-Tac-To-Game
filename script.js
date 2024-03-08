@@ -36,6 +36,7 @@ boxes.forEach((box)=>{
 
         }else{
             box.innerText = "X";
+            box.style="color:red;"
             turnO = true;
         }
         box.disabled = true;
